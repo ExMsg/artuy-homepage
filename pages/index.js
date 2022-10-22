@@ -1,11 +1,11 @@
-import { Container, Box, Heading, Image, useColorModeValue, Button, Link, Icon, Wrap, WrapItem }from "@chakra-ui/react"
-import { BioSection, BioYear } from "../components/bio"
-import { ChevronRightIcon } from "@chakra-ui/icons"
-import { IoLogoInstagram, IoLogoGithub, IoLogoWhatsapp } from "react-icons/io5"
-import NextLink from "next/link"
-import Layout from "../components/layouts/article"
-import Section from "../components/section"
-import Paragraph from "../components/paragraph"
+import { Container, Box, Heading, Image, useColorModeValue, Button, Link, Icon, Wrap, WrapItem }from '@chakra-ui/react'
+import { BioSection, BioYear } from '../components/bio'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import { IoLogoInstagram, IoLogoGithub, IoLogoWhatsapp } from 'react-icons/io5'
+import NextLink from 'next/link'
+import Layout from '../components/layouts/article'
+import Section from '../components/section'
+import Paragraph from '../components/paragraph'
 
 
 const Page = () => {
