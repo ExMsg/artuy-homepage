@@ -1,11 +1,11 @@
-import { Container, Box, Heading, Image, useColorModeValue, Button, Link, Icon, Wrap, WrapItem }from '@chakra-ui/react'
-import { BioSection, BioYear } from '../components/bio'
-import { ChevronRightIcon } from '@chakra-ui/icons'
-import { IoLogoInstagram, IoLogoGithub, IoLogoWhatsapp } from 'react-icons/io5'
-import NextLink from 'next/link'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import Paragraph from '../components/paragraph'
+import { Container, Box, Heading, Image, useColorModeValue, Button, Link, Icon, Wrap, WrapItem }from '@chakra-ui/react';
+import { BioSection, BioYear } from '../components/bio';
+import { ChevronRightIcon } from '@chakra-ui/icons';
+import { IoLogoInstagram, IoLogoGithub, IoLogoWhatsapp } from 'react-icons/io5';
+import NextLink from 'next/link';
+import Layout from '../components/layouts/article';
+import Section from '../components/section';
+import Paragraph from '../components/paragraph';
 
 
 const Page = () => {
@@ -20,7 +20,7 @@ const Page = () => {
                         <Heading as="h2" variant="page-title" >
                             Artha Adiyaksa
                         </Heading>
-                        <p>Student"s ( Fullstack Developer / Full Time Trader )</p>
+                        <p>Student&apos;s ( Fullstack Developer / Full Time Trader )</p>
                     </Box>
                     <Box 
                     flexShrink={1} 
@@ -43,7 +43,7 @@ const Page = () => {
                         Work
                     </Heading>
                     <Paragraph>
-                        Artha is a freelance and a full passion for building a digital services/stuff he wants. I"am a 20 y.o from indonesian and have a dream become a great programmer, and have motivation to build a amazing application that people can use.
+                        Artha is a freelance and a full passion for building a digital services/stuff he wants. I&apos;am a 20 y.o from indonesian and have a dream become a great programmer, and have motivation to build a amazing application that people can use.
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/works">
@@ -71,7 +71,7 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>2021 to present</BioYear>
-                        Work"s as a freelance
+                        Work&apos;s as a freelance
                     </BioSection>
                 </Section>
                 <Section delay={0.3}>
